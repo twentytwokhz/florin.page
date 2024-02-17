@@ -57,7 +57,7 @@ menu:
         icon: github
     - name: Twitter
       weight: 8
-      url: "https://twitter.com/nebotech"
+      url: "https://twitter.com/"
       params:
         icon: x-twitter
 
