@@ -18,27 +18,30 @@ markup:
 
 menu:
   main:
+    - name: Blog
+      pageRef: /blog
+      weight: 1
     - name: Docs
       pageRef: /docs
-      weight: 1
+      weight: 2
     - name: About
       pageRef: /about
-      weight: 2
-    - name: Contact ↗
-      url: "https://github.com/imfing"
       weight: 3
-    - name: Search
+    - name: Contact ↗
+      url: "https://github.com/twentytwokhz"
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
     - name: GitHub
-      weight: 5
-      url: "https://github.com/imfing/hextra-starter-template"
+      weight: 6
+      url: "https://github.com/twentytwokhz"
       params:
         icon: github
     - name: Twitter
-      weight: 6
-      url: "https://twitter.com/"
+      weight: 7
+      url: "https://twitter.com/nebotech"
       params:
         icon: x-twitter
 
@@ -53,4 +56,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    base: "https://github.com/twentytwokhz/florin.page/edit/main/content"
