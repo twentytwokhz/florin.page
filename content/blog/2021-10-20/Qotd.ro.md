@@ -1,5 +1,6 @@
 ---
-title: "Quote of the day"
+title: "Citatul zilei"
+slug: "citatul-zilei"
 date: 2021-10-20
 tags:
 - quote
@@ -10,5 +11,5 @@ tags:
 
 ![img](./images/03-quote_of_day.jpg)
 
-> Too much generous indulgence leads to incompetence.<br>
+> Prea multă indulgență generoasă duce la incompetență.<br>
 > — <cite>Benjamin Franklin</cite>

@@ -1,5 +1,6 @@
 ---
-title: "How to Build a Better Work Environment"
+title: "Cum construim un mediu de lucru placut"
+slug: "cum-construim-un-mediu-de-lucru-placut"
 date: 2023-01-13T22:34:26+02:00
 tags:
 - thought

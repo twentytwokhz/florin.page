@@ -1,5 +1,5 @@
 # Hugo configuration file
-title: My Site
+title: Florin Bobiș
 
 # import hextra as module
 module:
@@ -16,44 +16,75 @@ markup:
   highlight:
     noClasses: false
 
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    languageName: English
+    weight: 1
+  ro:
+    languageName: Română
+    weight: 2
+
 menu:
   main:
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 1
+    # - name: Docs
+    #   pageRef: /docs
+    #   weight: 2
     - name: Blog
       pageRef: /blog
-      weight: 1
-    - name: Docs
-      pageRef: /docs
-      weight: 2
-    - name: About
-      pageRef: /about
       weight: 3
+    - identifier: links
+      name: Links
+      pageRef: /links
+      weight: 4
     - name: Contact ↗
       url: "https://github.com/twentytwokhz"
-      weight: 4
-    - name: Search
       weight: 5
+    - identifier: search
+      name: Search
+      weight: 6
       params:
         type: search
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/twentytwokhz"
       params:
         icon: github
     - name: Twitter
-      weight: 7
+      weight: 8
       url: "https://twitter.com/nebotech"
       params:
         icon: x-twitter
 
 params:
+  author:
+    email: florinbobis@gmail.com
+    name: Florin Bobiș
+  theme:
+    default: system
+    displayToggle: true
   navbar:
     displayTitle: true
-    displayLogo: false
+    displayLogo: true
+    logo:
+      path: images/logo.png
+      dark: images/logo.png
+      link: /
+      width: 40
 
   footer:
-    displayCopyright: false
+    displayCopyright: true
     displayPoweredBy: true
 
   editURL:
-    enable: true
+    enable: false
     base: "https://github.com/twentytwokhz/florin.page/edit/main/content"
+
+services:
+  googleAnalytics:
+    ID: G-273NQV2FY5
