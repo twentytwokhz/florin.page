@@ -1,0 +1,19 @@
+---
+import { Icon } from "astro-icon/components";
+const { platform, username, icon } = Astro.props;
+---
+
+<a href={`https://${platform}.com/${username}`} target="_blank">
+  <span class="sr-only">Follow me on {platform}</span>
+  <Icon name={icon} width={32} height={32}/>
+</a>
+
+<style lang="css">
+    [data-icon] {
+        color: rgb(var(--gray));
+    }
+    
+    [data-icon]:hover {
+		color: rgb(var(--gray-dark));
+    }
+</style>

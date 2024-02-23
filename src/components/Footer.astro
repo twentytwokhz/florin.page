@@ -1,0 +1,27 @@
+---
+import Social from './Social.astro';
+const today = new Date();
+---
+
+<footer>
+	&copy; {today.getFullYear()} Florin Bobiș. All rights reserved.
+	<div class="social-links">
+		<Social platform="linkedin" username="in/florinbobis" icon="mdi:linkedin"/>
+		<Social platform="github" username="twentytwokhz" icon="line-md:github-loop"/>
+		<Social platform="instagram" username="florinbobis" icon="mdi:instagram"/>
+	</div>
+</footer>
+<style>
+	footer {
+		padding: 2em 1em 6em 1em;
+		background: linear-gradient(var(--gray-gradient)) no-repeat;
+		color: rgb(var(--gray));
+		text-align: center;
+	}
+	.social-links {
+		display: flex;
+		justify-content: center;
+		gap: 1em;
+		margin-top: 1em;
+	}
+</style>
