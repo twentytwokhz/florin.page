@@ -21,10 +21,9 @@ Each tick-tock tells a story, and I find inspiration in the meticulous craftsman
 
 For those curious souls, I'm an Orthodox Christian, finding strength and purpose in my faith.
 
-Join me as we navigate the digital frontier, shaping the future, one line of code at a time. 🌐✨
-
 ## Tech Stack
 
-This website is written in vanilla **JavaScript** (+ TypeScript for type checking) and a bit of ReactJS for some interactions. #TailwindCSS is used for styling; and Markdown is used for blog contents.
+This website is written with `🧑‍🚀Astro`[^1] in vanilla **JavaScript** (+ TypeScript for type checking) and a bit of ReactJS for some interactions. **TailwindCSS**[^2] is used for styling; and Markdown is used for blog contents.
 
-> If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).
+[^1]: https://astro.build/
+[^2]: https://tailwindcss.com/
