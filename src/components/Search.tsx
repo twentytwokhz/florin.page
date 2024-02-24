@@ -48,6 +48,9 @@ export default function SearchBar({ searchList }: Props) {
     const searchStr = searchUrl.get("q");
     if (searchStr) setInputVal(searchStr);
 
+    //FB: needed to focus input when navigating between pages
+    inputRef.current.focus();
+
     // put focus cursor at the end of the string
     setTimeout(function () {
       inputRef.current!.selectionStart = inputRef.current!.selectionEnd =
@@ -93,7 +96,7 @@ export default function SearchBar({ searchList }: Props) {
           value={inputVal}
           onChange={handleChange}
           autoComplete="off"
-          // autoFocus
+          autoFocus
           ref={inputRef}
         />
       </label>

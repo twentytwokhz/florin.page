@@ -25,6 +25,12 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS: SocialObjects = [
   {
+    name: "LinkedIn",
+    href: "https://linkedin.com/in/florinbobis",
+    linkTitle: `${SITE.title} on LinkedIn`,
+    active: true,
+  },
+  {
     name: "Github",
     href: "https://github.com/twentytwokhz",
     linkTitle: ` ${SITE.title} on Github`,
@@ -34,12 +40,6 @@ export const SOCIALS: SocialObjects = [
     name: "Instagram",
     href: "https://instagram.com/florinbobis",
     linkTitle: `${SITE.title} on Instagram`,
-    active: true,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://linkedin.com/in/florinbobis",
-    linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
   {
