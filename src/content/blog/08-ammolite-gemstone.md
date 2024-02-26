@@ -2,7 +2,7 @@
 author: Florin Bobiș
 title: Ammolite gemstone AI
 description: Ammolite gemstone
-pubDatetime: 2024-02-17T22:34:26+02:00
+pubDatetime: 2024-02-17T12:34:26+02:00
 ogImage: ../../assets/images/2024-02-17/ammonite1.png
 featured: true
 draft: false
