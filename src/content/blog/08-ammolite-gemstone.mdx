@@ -11,7 +11,11 @@ tags:
   - AIArt
 ---
 
-## Table of contents
+import { Picture } from "astro:assets";
+import ammolite1 from "../../assets/images/2024-02-17/ammonite1.png";
+import ammolite2 from "../../assets/images/2024-02-17/ammonite2.png";
+import ammolite3 from "../../assets/images/2024-02-17/ammonite3.png";
+import ammolite4 from "../../assets/images/2024-02-17/ammonite4.png";
 
 ## Overview
 
@@ -20,6 +24,8 @@ Ammolite is the fossilized shell of ammonites, which are composed primarily of a
 Ammolite is typically used to create doublets or triplets that are suitable for making durable jewelry.
 
 Ammolite is famous for its remarkably vivid play of colour, caused by lamellar structure of the glass-like shell. It is also called gem ammonite, calcentine, and korite.
+
+<Picture src={ammolite1} alt="Ammolite1" formats={["webp"]} />
 
 More info can be found here 👉[^1]
 
@@ -39,10 +45,9 @@ Iridescent colors of red, purple, blue, green, yellow
 
 ## Images
 
-![Ammolite1](../../assets/images/2024-02-17/ammonite1.png)
-
-![Ammolite2](../../assets/images/2024-02-17/ammonite2.png)
-
-![Ammolite3](../../assets/images/2024-02-17/ammonite3.png)
-
-![Ammolite4](../../assets/images/2024-02-17/ammonite4.png)
+<div class="grid grid-cols-4 gap-4">
+  <Picture src={ammolite1} alt="Ammolite1" formats={["webp"]} />
+  <Picture src={ammolite2} alt="Ammolite2" formats={["webp"]} />
+  <Picture src={ammolite3} alt="Ammolite3" formats={["webp"]} />
+  <Picture src={ammolite4} alt="Ammolite4" formats={["webp"]} />
+</div>

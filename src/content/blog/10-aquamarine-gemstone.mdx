@@ -10,11 +10,17 @@ tags:
   - AIArt
 ---
 
-## Table of contents
+import { Picture } from "astro:assets";
+import aquamarine1 from "../../assets/images/2024-02-26/aquamarine1.png";
+import aquamarine2 from "../../assets/images/2024-02-26/aquamarine2.png";
+import aquamarine3 from "../../assets/images/2024-02-26/aquamarine3.png";
+import aquamarine4 from "../../assets/images/2024-02-26/aquamarine4.png";
 
 ## Overview
 
 The name aquamarine comes from _aqua_ (Latin for `water`), and _marine_, deriving from _marina_ (Latin for `of the sea`). The first reference in English to "Aquamarina" appears in **Anselmus Boetius De Boot** book _GEMMARUM ET LAPIDUM HISTORIA_ (1609, in Latin). It was later cited in _A Lapidary History or History of Precious Stones_ by **Thomas Nicols**, Cambridge (1652, page 114), where it states that the name was used by the Italians for blue-green varieties of beryl.
+
+<Picture src={aquamarine1} alt="Aquamarine1" formats={["webp"]} />
 
 More info can be found here 👉[^1]
 
@@ -38,10 +44,9 @@ Pale to medium blue, blue-green
 
 ## Images
 
-![Ammolite1](../../assets/images/2024-02-26/aquamarine1.png)
-
-![Ammolite2](../../assets/images/2024-02-26/aquamarine2.png)
-
-![Ammolite3](../../assets/images/2024-02-26/aquamarine3.png)
-
-![Ammolite4](../../assets/images/2024-02-26/aquamarine4.png)
+<div class="grid grid-cols-4 gap-4">
+  <Picture src={aquamarine1} alt="Aquamarine1" formats={["webp"]} />
+  <Picture src={aquamarine2} alt="Aquamarine2" formats={["webp"]} />
+  <Picture src={aquamarine3} alt="Aquamarine3" formats={["webp"]} />
+  <Picture src={aquamarine4} alt="Aquamarine4" formats={["webp"]} />
+</div>
