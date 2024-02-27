@@ -3,6 +3,7 @@ author: Florin Bobiș
 title: About Obsidian
 description: About Obsidian
 pubDatetime: 2024-02-26T22:59:11+02:00
+ogImage: ../../assets/images/2024-02-26/obsidian_screen.png
 featured: true
 draft: false
 tags:
